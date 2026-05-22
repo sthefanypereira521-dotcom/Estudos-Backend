@@ -1,5 +1,34 @@
 # Estudos-Backend 
 
+![Python](https://img.shields.io/badge/Python-3.9+-blue?style=flat-square&logo=python)
+
+
+
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14+-336791?style=flat-square&logo=postgresql)
+
+
+
+
+![FastAPI](https://img.shields.io/badge/FastAPI-0.95+-green?style=flat-square&logo=fastapi)
+
+
+
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git)
+
+
+
+
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github)
+
+
+
+
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow?style=flat-square)
+
+
+
 Este repositório  organizo  meus estudos  de programaçao e github
 
 ## Conteúdo
