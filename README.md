@@ -29,6 +29,7 @@
 
 
 
+
 Este repositório  organizo  meus estudos  de programaçao e github
 
 ## Conteúdo
@@ -52,6 +53,20 @@ Este repositório  organizo  meus estudos  de programaçao e github
 - Organizar meus estudos de programação  
 - Criar um histórico de evolução em programaçao
 - Me tornar desenvolvedora backend com Python  
+
+
+## Como Usar
+ 
+ ### Clone o repositório:
+
+git clone https://github.com/sthefanypereireira/Estudos-Backend.git
+cd Estudos-Backend
+
+
+## Navegue até a pasta desejada:
+
+cd estrutura_dados
+python nome_do_arquivo.py
 
 
 ## Status
