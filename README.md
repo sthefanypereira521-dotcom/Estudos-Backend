@@ -1,4 +1,4 @@
-# Primeiro repositório
+# Estudos-Backend 
 
 Este repositório  organizo  meus estudos  de programaçao e github
 
@@ -6,6 +6,9 @@ Este repositório  organizo  meus estudos  de programaçao e github
 
  ## Algoritmos
   Exercícios de lógica e algoritmos desenvolvidos durante meus estudos iniciais.
+
+  ## Estrutura de dados 
+  Exercícios práticos sobre estruturas de dados fundamentais
 
  ## Python 
    Scripts exercicios em Python à medida que avanço nos estudos da linguagem.
