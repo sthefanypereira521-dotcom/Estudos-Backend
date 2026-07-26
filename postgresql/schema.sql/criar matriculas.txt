@@ -1,0 +1,26 @@
+-- Table: public.matriculas
+
+-- DROP TABLE IF EXISTS public.matriculas;
+
+CREATE TABLE IF NOT EXISTS public.matriculas
+(
+    id integer NOT NULL DEFAULT nextval('matriculas_id_seq'::regclass),
+    aluno_id integer,
+    curso_id integer,
+    ativo boolean,
+    data_matricula timestamp without time zone DEFAULT CURRENT_TIMESTAMP,
+    CONSTRAINT matriculas_pkey PRIMARY KEY (id),
+    CONSTRAINT fk_aluno FOREIGN KEY (aluno_id)
+        REFERENCES public.alunos (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION,
+    CONSTRAINT fk_curso FOREIGN KEY (curso_id)
+        REFERENCES public.cursos (id) MATCH SIMPLE
+        ON UPDATE NO ACTION
+        ON DELETE NO ACTION
+)
+
+TABLESPACE pg_default;
+
+ALTER TABLE IF EXISTS public.matriculas
+    OWNER to postgres;
